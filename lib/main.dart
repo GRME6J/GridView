@@ -1,29 +1,30 @@
 import 'package:flutter/material.dart';
+import 'package:garcia/gridwiewemoleados.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(UberApp());
 }
 
-class MyApp extends StatelessWidget {
+class UberApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        title: 'Flutter App Learning',
+        title: 'Aprendiendo',
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
           primarySwatch: Colors.green,
         ),
-        home: MyHomePage());
+        home: PaginaInicial());
   }
 }
 
-class MyHomePage extends StatefulWidget {
-  MyHomePage({Key? key}) : super(key: key);
+class PaginaInicial extends StatefulWidget {
+  PaginaInicial({Key? key}) : super(key: key);
   @override
-  _MyHomePageState createState() => _MyHomePageState();
+  _PaginaInicialState createState() => _PaginaInicialState();
 }
 
-class _MyHomePageState extends State<MyHomePage> {
+class _PaginaInicialState extends State<PaginaInicial> {
   List<String> images = [
     "assets/images/gps-uber.jpg",
     "assets/images/taxi.jpg",
