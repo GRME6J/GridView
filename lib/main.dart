@@ -2,27 +2,25 @@ import 'package:flutter/material.dart';
 
 void main() {
   runApp(MyApp());
-} //Funcion principal
+}
 
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Aprendiendo GridView',
-      debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        primarySwatch: Colors.green,
-      ),
-      //home: MyHomePage()
-    );
+        title: 'Flutter App Learning',
+        theme: ThemeData(
+          primarySwatch: Colors.green,
+        ),
+        home: MyHomePage());
   }
-} //widget sin estado
+}
 
 class MyHomePage extends StatefulWidget {
   MyHomePage({Key? key}) : super(key: key);
   @override
   _MyHomePageState createState() => _MyHomePageState();
-} //widget con estado
+}
 
 class _MyHomePageState extends State<MyHomePage> {
   List<String> images = [
@@ -31,11 +29,11 @@ class _MyHomePageState extends State<MyHomePage> {
         "assets/images/gps-uber.jpg",
     "assets/images/taxi.jpg"
         "assets/images/gps-uber.jpg",
-    "assets/images/taxi.jpg"
-        "assets/images/tarifas-uber.jpg"
-        "assets/images/uber.jpg"
-        "assets/images/unnamed.png"
-        "assets/images/descarga.png"
+    "assets/images/taxi.jpg",
+    "assets/images/tarifas-uber.jpg",
+    "assets/images/uber.jpg",
+    "assets/images/unnamed.png",
+    "assets/images/descarga.png",
   ];
   @override
   Widget build(BuildContext context) {
