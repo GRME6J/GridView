@@ -35,6 +35,16 @@ class _MyHomePageState extends State<MyHomePage> {
     "assets/images/uber.jpg",
     "assets/images/unnamed.png",
     "assets/images/descarga.png",
+    "assets/images/gps-uber.jpg",
+    "assets/images/taxi.jpg",
+    "assets/images/gps-uber.jpg",
+    "assets/images/taxi.jpg",
+    "assets/images/gps-uber.jpg",
+    "assets/images/taxi.jpg",
+    "assets/images/tarifas-uber.jpg",
+    "assets/images/uber.jpg",
+    "assets/images/unnamed.png",
+    "assets/images/descarga.png",
   ];
   @override
   Widget build(BuildContext context) {
