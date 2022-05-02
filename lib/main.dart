@@ -9,6 +9,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         title: 'Flutter App Learning',
+        debugShowCheckedModeBanner: false,
         theme: ThemeData(
           primarySwatch: Colors.green,
         ),
@@ -25,10 +26,10 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   List<String> images = [
     "assets/images/gps-uber.jpg",
-    "assets/images/taxi.jpg"
-        "assets/images/gps-uber.jpg",
-    "assets/images/taxi.jpg"
-        "assets/images/gps-uber.jpg",
+    "assets/images/taxi.jpg",
+    "assets/images/gps-uber.jpg",
+    "assets/images/taxi.jpg",
+    "assets/images/gps-uber.jpg",
     "assets/images/taxi.jpg",
     "assets/images/tarifas-uber.jpg",
     "assets/images/uber.jpg",
