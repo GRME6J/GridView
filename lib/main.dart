@@ -27,11 +27,11 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   List<String> images = [
     "assets/images/gps-uber.jpg",
-    "assets/images/taxi.jpg",
-    "assets/images/gps-uber.jpg",
-    "assets/images/taxi.jpg",
-    "assets/images/gps-uber.jpg",
-    "assets/images/taxi.jpg",
+    "assets/images/taxi.jpg"
+        "assets/images/tarifas-uber.jpg"
+        "assets/images/uber.jpg"
+        "assets/images/unnamed.png"
+        "assets/images/descarga.png"
   ];
   @override
   Widget build(BuildContext context) {
